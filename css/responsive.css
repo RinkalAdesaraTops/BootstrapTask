@@ -1,0 +1,24 @@
+@media (max-width:992px){
+    /* navbar */
+    .header_wrapper .nav-btn{
+        margin-top: 20px;
+    }
+    /* menu */
+    .header_wrapper .main-menu{
+        height: 100%;
+    }
+    .header_wrapper .main-menu .menu-right{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .header_wrapper .main-menu .menu-left{
+        display: flex !important;
+        justify-content: center !important;
+        flex-wrap: wrap;
+    }
+    /* banner */
+    .ban_wrapper .carousel-inner{
+        height: auto;
+    }
+}
